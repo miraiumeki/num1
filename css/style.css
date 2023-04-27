@@ -5,7 +5,6 @@
  li {
     list-style: none;
  }
-
 /* 共通 */
 .d-flex {
     display: flex;
@@ -74,3 +73,33 @@ main {
 .bycycle-area li {
     width: 30%;
 }
+@media screen and (max-width: 768px) {
+    header {
+        padding: 3% 0;
+    }
+    .contents {
+        width: 80%;
+    }
+    .menu {
+        margin-top: 10px;
+    }
+    .contents:not(:first-of-type) {
+        margin: 10% auto;
+    }
+    }
+    @media screen and (max-width: 520px) {
+        .bycycle-area li {
+            width: 100%;
+            margin: 0 0 10%;
+        }
+        .bycycle .d-flex {
+            display: block;
+        }
+        .bycycle-area li img {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .bycycle-area li h3 {
+            margin-top: 3%;
+        }
+    }
