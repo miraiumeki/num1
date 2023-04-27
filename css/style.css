@@ -89,8 +89,8 @@ header {
     .contents:not(:first-of-type) {
         margin: 10% auto;
     }
-    }
-    @media screen and (max-width: 520px) {
+}
+@media screen and (max-width: 520px) {
         .bycycle-area li {
             width: 100%;
             margin: 0 0 10%;
@@ -105,4 +105,4 @@ header {
         .bycycle-area li h3 {
             margin-top: 3%;
         }
-    }
+}
